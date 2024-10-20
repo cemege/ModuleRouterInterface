@@ -6,66 +6,42 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		BB865A302CC52E9600FF2F5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB865A172CC52E9400FF2F5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB865A1E2CC52E9400FF2F5A;
-			remoteInfo = ModuleInterface;
-		};
-		BB865A3A2CC52E9600FF2F5A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BB865A172CC52E9400FF2F5A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BB865A1E2CC52E9400FF2F5A;
-			remoteInfo = ModuleInterface;
-		};
-/* End PBXContainerItemProxy section */
+/* Begin PBXBuildFile section */
+		BB865A872CC54B0700FF2F5A /* RouterServiceProtocol in Frameworks */ = {isa = PBXBuildFile; productRef = BB865A862CC54B0700FF2F5A /* RouterServiceProtocol */; };
+		BB865A8B2CC54C0100FF2F5A /* GarageNavigationInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BB865A8A2CC54C0100FF2F5A /* GarageNavigationInterface */; };
+		BB865A8F2CC54C0100FF2F5A /* PriceOfferNavigationInterface in Frameworks */ = {isa = PBXBuildFile; productRef = BB865A8E2CC54C0100FF2F5A /* PriceOfferNavigationInterface */; };
+		BB865AAD2CC57AAF00FF2F5A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB865AA92CC57AAF00FF2F5A /* Assets.xcassets */; };
+		BB865AAE2CC57AAF00FF2F5A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BB865AA72CC57AAF00FF2F5A /* Preview Assets.xcassets */; };
+		BBFA03F02CC57BF0009CFC9C /* Garage in Frameworks */ = {isa = PBXBuildFile; productRef = BBFA03EF2CC57BF0009CFC9C /* Garage */; };
+		BBFA03F22CC57BF0009CFC9C /* PriceOffer in Frameworks */ = {isa = PBXBuildFile; productRef = BBFA03F12CC57BF0009CFC9C /* PriceOffer */; };
+		BBFA03F42CC58182009CFC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA03F32CC58182009CFC9C /* AppDelegate.swift */; };
+		BBFA03F62CC58194009CFC9C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BBFA03F52CC58194009CFC9C /* SceneDelegate.swift */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BB865A1F2CC52E9400FF2F5A /* ModuleInterface.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ModuleInterface.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB865A2F2CC52E9600FF2F5A /* ModuleInterfaceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleInterfaceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB865A392CC52E9600FF2F5A /* ModuleInterfaceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ModuleInterfaceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB865AA12CC57AAF00FF2F5A /* Garage */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Garage; sourceTree = "<group>"; };
+		BB865AA22CC57AAF00FF2F5A /* GarageNavigationInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = GarageNavigationInterface; sourceTree = "<group>"; };
+		BB865AA32CC57AAF00FF2F5A /* PriceOffer */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PriceOffer; sourceTree = "<group>"; };
+		BB865AA42CC57AAF00FF2F5A /* PriceOfferNavigationInterface */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = PriceOfferNavigationInterface; sourceTree = "<group>"; };
+		BB865AA52CC57AAF00FF2F5A /* RouterServiceProtocol */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RouterServiceProtocol; sourceTree = "<group>"; };
+		BB865AA72CC57AAF00FF2F5A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BB865AA92CC57AAF00FF2F5A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BBFA03F32CC58182009CFC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BBFA03F52CC58194009CFC9C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BBFA03F72CC58328009CFC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		BB865A212CC52E9400FF2F5A /* ModuleInterface */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ModuleInterface;
-			sourceTree = "<group>";
-		};
-		BB865A322CC52E9600FF2F5A /* ModuleInterfaceTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ModuleInterfaceTests;
-			sourceTree = "<group>";
-		};
-		BB865A3C2CC52E9600FF2F5A /* ModuleInterfaceUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = ModuleInterfaceUITests;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		BB865A1C2CC52E9400FF2F5A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A2C2CC52E9600FF2F5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A362CC52E9600FF2F5A /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BB865A872CC54B0700FF2F5A /* RouterServiceProtocol in Frameworks */,
+				BBFA03F22CC57BF0009CFC9C /* PriceOffer in Frameworks */,
+				BBFA03F02CC57BF0009CFC9C /* Garage in Frameworks */,
+				BB865A8B2CC54C0100FF2F5A /* GarageNavigationInterface in Frameworks */,
+				BB865A8F2CC54C0100FF2F5A /* PriceOfferNavigationInterface in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -75,9 +51,8 @@
 		BB865A162CC52E9400FF2F5A = {
 			isa = PBXGroup;
 			children = (
-				BB865A212CC52E9400FF2F5A /* ModuleInterface */,
-				BB865A322CC52E9600FF2F5A /* ModuleInterfaceTests */,
-				BB865A3C2CC52E9600FF2F5A /* ModuleInterfaceUITests */,
+				BB865AAC2CC57AAF00FF2F5A /* ModuleInterface */,
+				BB865A852CC54B0700FF2F5A /* Frameworks */,
 				BB865A202CC52E9400FF2F5A /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,10 +61,48 @@
 			isa = PBXGroup;
 			children = (
 				BB865A1F2CC52E9400FF2F5A /* ModuleInterface.app */,
-				BB865A2F2CC52E9600FF2F5A /* ModuleInterfaceTests.xctest */,
-				BB865A392CC52E9600FF2F5A /* ModuleInterfaceUITests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		BB865A852CC54B0700FF2F5A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BB865AA62CC57AAF00FF2F5A /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BB865AA52CC57AAF00FF2F5A /* RouterServiceProtocol */,
+				BB865AA22CC57AAF00FF2F5A /* GarageNavigationInterface */,
+				BB865AA42CC57AAF00FF2F5A /* PriceOfferNavigationInterface */,
+				BB865AA12CC57AAF00FF2F5A /* Garage */,
+				BB865AA32CC57AAF00FF2F5A /* PriceOffer */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		BB865AA82CC57AAF00FF2F5A /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BB865AA72CC57AAF00FF2F5A /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BB865AAC2CC57AAF00FF2F5A /* ModuleInterface */ = {
+			isa = PBXGroup;
+			children = (
+				BBFA03F72CC58328009CFC9C /* Info.plist */,
+				BB865AA62CC57AAF00FF2F5A /* Packages */,
+				BB865AA82CC57AAF00FF2F5A /* Preview Content */,
+				BB865AA92CC57AAF00FF2F5A /* Assets.xcassets */,
+				BBFA03F32CC58182009CFC9C /* AppDelegate.swift */,
+				BBFA03F52CC58194009CFC9C /* SceneDelegate.swift */,
+			);
+			path = ModuleInterface;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -107,61 +120,17 @@
 			);
 			dependencies = (
 			);
-			fileSystemSynchronizedGroups = (
-				BB865A212CC52E9400FF2F5A /* ModuleInterface */,
-			);
 			name = ModuleInterface;
 			packageProductDependencies = (
+				BB865A862CC54B0700FF2F5A /* RouterServiceProtocol */,
+				BB865A8A2CC54C0100FF2F5A /* GarageNavigationInterface */,
+				BB865A8E2CC54C0100FF2F5A /* PriceOfferNavigationInterface */,
+				BBFA03EF2CC57BF0009CFC9C /* Garage */,
+				BBFA03F12CC57BF0009CFC9C /* PriceOffer */,
 			);
 			productName = ModuleInterface;
 			productReference = BB865A1F2CC52E9400FF2F5A /* ModuleInterface.app */;
 			productType = "com.apple.product-type.application";
-		};
-		BB865A2E2CC52E9600FF2F5A /* ModuleInterfaceTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB865A462CC52E9600FF2F5A /* Build configuration list for PBXNativeTarget "ModuleInterfaceTests" */;
-			buildPhases = (
-				BB865A2B2CC52E9600FF2F5A /* Sources */,
-				BB865A2C2CC52E9600FF2F5A /* Frameworks */,
-				BB865A2D2CC52E9600FF2F5A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB865A312CC52E9600FF2F5A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BB865A322CC52E9600FF2F5A /* ModuleInterfaceTests */,
-			);
-			name = ModuleInterfaceTests;
-			packageProductDependencies = (
-			);
-			productName = ModuleInterfaceTests;
-			productReference = BB865A2F2CC52E9600FF2F5A /* ModuleInterfaceTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		BB865A382CC52E9600FF2F5A /* ModuleInterfaceUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB865A492CC52E9600FF2F5A /* Build configuration list for PBXNativeTarget "ModuleInterfaceUITests" */;
-			buildPhases = (
-				BB865A352CC52E9600FF2F5A /* Sources */,
-				BB865A362CC52E9600FF2F5A /* Frameworks */,
-				BB865A372CC52E9600FF2F5A /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BB865A3B2CC52E9600FF2F5A /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				BB865A3C2CC52E9600FF2F5A /* ModuleInterfaceUITests */,
-			);
-			name = ModuleInterfaceUITests;
-			packageProductDependencies = (
-			);
-			productName = ModuleInterfaceUITests;
-			productReference = BB865A392CC52E9600FF2F5A /* ModuleInterfaceUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
@@ -175,14 +144,6 @@
 				TargetAttributes = {
 					BB865A1E2CC52E9400FF2F5A = {
 						CreatedOnToolsVersion = 16.0;
-					};
-					BB865A2E2CC52E9600FF2F5A = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = BB865A1E2CC52E9400FF2F5A;
-					};
-					BB865A382CC52E9600FF2F5A = {
-						CreatedOnToolsVersion = 16.0;
-						TestTargetID = BB865A1E2CC52E9400FF2F5A;
 					};
 				};
 			};
@@ -201,8 +162,6 @@
 			projectRoot = "";
 			targets = (
 				BB865A1E2CC52E9400FF2F5A /* ModuleInterface */,
-				BB865A2E2CC52E9600FF2F5A /* ModuleInterfaceTests */,
-				BB865A382CC52E9600FF2F5A /* ModuleInterfaceUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -212,20 +171,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A2D2CC52E9600FF2F5A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A372CC52E9600FF2F5A /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BB865AAD2CC57AAF00FF2F5A /* Assets.xcassets in Resources */,
+				BB865AAE2CC57AAF00FF2F5A /* Preview Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,37 +183,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A2B2CC52E9600FF2F5A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BB865A352CC52E9600FF2F5A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				BBFA03F42CC58182009CFC9C /* AppDelegate.swift in Sources */,
+				BBFA03F62CC58194009CFC9C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BB865A312CC52E9600FF2F5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB865A1E2CC52E9400FF2F5A /* ModuleInterface */;
-			targetProxy = BB865A302CC52E9600FF2F5A /* PBXContainerItemProxy */;
-		};
-		BB865A3B2CC52E9600FF2F5A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BB865A1E2CC52E9400FF2F5A /* ModuleInterface */;
-			targetProxy = BB865A3A2CC52E9600FF2F5A /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BB865A412CC52E9600FF2F5A /* Debug */ = {
@@ -329,6 +251,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
 			};
 			name = Debug;
 		};
@@ -384,6 +307,7 @@
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -399,11 +323,12 @@
 				DEVELOPMENT_TEAM = GW7G7YC46U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ModuleInterface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -412,7 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterface;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -428,11 +353,12 @@
 				DEVELOPMENT_TEAM = GW7G7YC46U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_FILE = ModuleInterface/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -441,80 +367,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterface;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 6.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		BB865A472CC52E9600FF2F5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW7G7YC46U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterfaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuleInterface.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModuleInterface";
-			};
-			name = Debug;
-		};
-		BB865A482CC52E9600FF2F5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW7G7YC46U;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterfaceTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ModuleInterface.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ModuleInterface";
-			};
-			name = Release;
-		};
-		BB865A4A2CC52E9600FF2F5A /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW7G7YC46U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterfaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ModuleInterface;
-			};
-			name = Debug;
-		};
-		BB865A4B2CC52E9600FF2F5A /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = GW7G7YC46U;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = dev.cemege.ModuleInterfaceUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = ModuleInterface;
 			};
 			name = Release;
 		};
@@ -539,25 +393,30 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB865A462CC52E9600FF2F5A /* Build configuration list for PBXNativeTarget "ModuleInterfaceTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB865A472CC52E9600FF2F5A /* Debug */,
-				BB865A482CC52E9600FF2F5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BB865A492CC52E9600FF2F5A /* Build configuration list for PBXNativeTarget "ModuleInterfaceUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BB865A4A2CC52E9600FF2F5A /* Debug */,
-				BB865A4B2CC52E9600FF2F5A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BB865A862CC54B0700FF2F5A /* RouterServiceProtocol */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RouterServiceProtocol;
+		};
+		BB865A8A2CC54C0100FF2F5A /* GarageNavigationInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = GarageNavigationInterface;
+		};
+		BB865A8E2CC54C0100FF2F5A /* PriceOfferNavigationInterface */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PriceOfferNavigationInterface;
+		};
+		BBFA03EF2CC57BF0009CFC9C /* Garage */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Garage;
+		};
+		BBFA03F12CC57BF0009CFC9C /* PriceOffer */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = PriceOffer;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = BB865A172CC52E9400FF2F5A /* Project object */;
 }
